@@ -4,3 +4,13 @@ This projects is a freelancer platform built on Near blockchain. Freelancers and
 
 
 Deploying and using this project
+
+Using the below comments this app can be deployed to near testnet
+
+	yarn build:release
+	
+	near dev-deploy ./build/release/freelancerapp.wasm
+
+	export CONTRACT=<dev account>
+  
+  
